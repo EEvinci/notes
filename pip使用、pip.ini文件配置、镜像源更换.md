@@ -104,12 +104,12 @@ trusted-host=pypi.douban.com
 
 ```python
 # pip show --files 安装包名
- Name:SomePackage    # 包名
- Version:1.0         # 版本号
- Location:/my/env/lib/pythonx.x/site-packages   # 安装位置
- Files:              # 包含文件等等
-  ../somepackage/__init__.py
-  [...]
+Name:SomePackage    # 包名
+Version:1.0         # 版本号
+Location:/my/env/lib/pythonx.x/site-packages   # 安装位置
+Files:              # 包含文件等等
+../somepackage/__init__.py
+[...]
 ```
 
 ##### pip检查哪些包需要更新

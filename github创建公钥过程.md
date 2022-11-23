@@ -46,12 +46,6 @@
 
 
 
-> 李琛真帅
-
-
-
-
-
 # GitHub 忘记SSH密钥
 
 如果之前稀里糊涂的设置过SSH密钥, 但是之后忘了, 那么**只能删除后重新创建一个新的`SSH密钥`**, 因为Git为了保证安全并**没有重新修改密码的功能**
@@ -96,4 +90,6 @@
 
 9. 然后如果你看到` Permission denied (publickey)`. 就说明你失败了，请回到第 1 步重来
 
-   如果你看到 `Hi XXX! You’ve successfully authenticated, but GitHub does not provide shell access.`那就说明你成功了![image-20220827192314849](E:\Typora\ty_Photo\image-20220827192314849.png)
+   如果你看到 `Hi XXX! You’ve successfully authenticated, but GitHub does not provide shell access.`那就说明你成功了
+   
+   ![image-20220827192314849](E:\Typora\ty_Photo\image-20220827192314849.png)
