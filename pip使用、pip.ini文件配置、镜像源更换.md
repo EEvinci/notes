@@ -191,3 +191,15 @@ trusted-host=
 disable-pip-version-check = true
 ```
 
+
+
+
+
+### 服务器pip的conf文件找不到
+
+只能在终端里面用命令配置其他源
+
+```py
+pip install tensorflow -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+```
+
