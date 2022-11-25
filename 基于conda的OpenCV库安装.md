@@ -18,13 +18,13 @@ import cv2
 
 直接在teminal中, 进入要指定的conda环境, 然后输入`pip install opencv-python`即可
 
-![image-20221123095326189](E:/Typora/ty_Photo/image-20221123095326189.png)
+![image-20221123095326189](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221123095326189.png)
 
 ### 关于`WARNING: Ignoring invalid distribution`
 
 进入括号中的地址，到site-packages中查找带前破折号的上述警告信息中所提到的破损的包，然后删除即可
 
-![image-20221123095736480](E:/Typora/ty_Photo/image-20221123095736480.png)
+![image-20221123095736480](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221123095736480.png)
 
 ### Second
 
