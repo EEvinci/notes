@@ -6,7 +6,7 @@
 
 **3./** 下载好之后做该插件版本的回退, **退回到1.8.4版本**, 因为这个版本还可以自动生成一些配置文件, 比如`settings.json`文件和`launch.json`文件
 
-![image-20220812004025201](E:\Typora\ty_Photo\image-20220812004025201.png)
+![image-20220812004025201](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220812004025201.png)
 
 如果没有.vscode文件夹, 如下所示
 
@@ -30,7 +30,7 @@
 
 不然在终端中会出现一大堆的编译提示，输入和结果的输出都很不清晰
 
-![image-20220812004320085](E:\Typora\ty_Photo\image-20220812004320085.png)
+![image-20220812004320085](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220812004320085.png)
 
 
 

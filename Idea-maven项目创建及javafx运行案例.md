@@ -6,13 +6,13 @@
 
 创建一个普通项目，**构建系统**使用**Maven**
 
-![image-20221010194558504](E:\Typora\ty_Photo\image-20221010194558504.png)
+![image-20221010194558504](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010194558504.png)
 
 
 
 项目结构应该是这样的
 
-![image-20221010194701916](E:\Typora\ty_Photo\image-20221010194701916.png)
+![image-20221010194701916](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010194701916.png)
 
 src下面有main和test
 
@@ -26,7 +26,7 @@ test resources没有自动创建，为了完善项目结构一会手动创建一
 
 最关键的pom.xml文件初始化是这样的
 
-![image-20221010195017017](E:\Typora\ty_Photo\image-20221010195017017.png)
+![image-20221010195017017](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010195017017.png)
 
 之后要根据项目的需要进行pom.xml文件的配置
 
@@ -140,7 +140,7 @@ test resources没有自动创建，为了完善项目结构一会手动创建一
 
 </>代表结束
 
-![image-20221010204516764](E:\Typora\ty_Photo\image-20221010204516764.png)
+![image-20221010204516764](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010204516764.png)
 
 在pom.xml文件中使用alt+insert快捷键添加依赖项模板
 
@@ -166,7 +166,7 @@ test resources没有自动创建，为了完善项目结构一会手动创建一
 
 等待依赖项和插件下载完成, 程序就可以运行了
 
-![image-20221010213623248](E:\Typora\ty_Photo\image-20221010213623248.png)
+![image-20221010213623248](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010213623248.png)
 
 相比之前要添加好几个jar包的方式方便很多
 
@@ -178,11 +178,11 @@ test resources没有自动创建，为了完善项目结构一会手动创建一
 
 在maven构建下直接运行app类,会报错
 
-![image-20221010214338038](E:\Typora\ty_Photo\image-20221010214338038.png)
+![image-20221010214338038](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010214338038.png)
 
 此时要创建一个运行app类的appLaunch类, 然后运行appLaunch, 才能正常运行
 
-![image-20221010214442693](E:\Typora\ty_Photo\image-20221010214442693.png)
+![image-20221010214442693](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221010214442693.png)
 
 这个appLaunch类中只要一句话就行
 
@@ -202,7 +202,7 @@ Application.launch(Login.class);
 
 以上的问题纯粹是因为我新建的是普通项目，而不是Java FX项目，如果新建的是Java FX项目，那么idea会自动给你生成相应的需要的pom.xml文件，并且运行也是正常的
 
-![image-20221017164152051](E:\Typora\ty_Photo\image-20221017164152051.png)
+![image-20221017164152051](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221017164152051.png)
 
 ------
 

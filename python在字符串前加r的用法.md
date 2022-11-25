@@ -14,15 +14,15 @@
 
 从文件夹中复制文件路径时, 中间的斜杠都是反斜杠, 这时如果直接复制到python中, 正巧有一个名字的第一个字母是r或者是n, 那么就会被转义识别为换行符
 
-![image-20221024191626902](E:\Typora\ty_Photo\image-20221024191626902.png)
+![image-20221024191626902](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221024191626902.png)
 
 例如这样, 此时该路径就是无效的
 
-![image-20221024191729259](E:\Typora\ty_Photo\image-20221024191729259.png)
+![image-20221024191729259](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221024191729259.png)
 
 若此时在该字符串前加上一个r
 
-![image-20221024191952866](E:\Typora\ty_Photo\image-20221024191952866.png)
+![image-20221024191952866](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221024191952866.png)
 
 该地址就可以正常使用了
 

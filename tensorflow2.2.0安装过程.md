@@ -41,14 +41,14 @@ pip show tensorflow
 -----
 发现anaconda中的环境可以嵌套使用，即在一个环境中激活另一个环境，当该环境退出时会回到第一个激活的环境，然后再退出才会回到base环境中
 我现在有三个环境
-![在这里插入图片描述](E:\Typora\ty_Photo\818cf90d011a4bb7b15e67bef81b72df.png)
+![在这里插入图片描述](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/818cf90d011a4bb7b15e67bef81b72df.png)
 现在我先进入TF2.1环境，再在TF2.1中进入Visual环境中
 然后再依次从Visual和TF2.1中退出
 因为这三个环境的python版本不同，所以可以用来作为区分
 base环境python版本：3.7.4
 TF2.1环境python版本：3.7.13
 Visual环境python版本：3.8.13
-![在这里插入图片描述](E:\Typora\ty_Photo\7f6b709d674a496880f1e0997111bd66.png)
+![在这里插入图片描述](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/7f6b709d674a496880f1e0997111bd66.png)
 
 ------
 在为环境安装包时，不要进入python中，激活环境然后通过pip命令进行下载

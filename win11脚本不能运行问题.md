@@ -10,7 +10,7 @@
 
 3. 若出现错误
 
-   ![image-20220625150839976](E:\Typora\ty_Photo\image-20220625150839976.png)
+   ![image-20220625150839976](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220625150839976.png)
 
 4. 连续输入以下命令行:
 

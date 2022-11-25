@@ -14,31 +14,31 @@
 
 4. **按回车三次**
 
-   ![image-20220827191600528](E:\Typora\ty_Photo\image-20220827191600528.png)
+   ![image-20220827191600528](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827191600528.png)
 
    公钥就在`id_rsa.pub`文件中
 
-   ![image-20220827192024881](E:\Typora\ty_Photo\image-20220827192024881.png)
+   ![image-20220827192024881](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192024881.png)
 
 5. 运行 `cat ~/.ssh/id_rsa.pub` ，得到一串东西，完整的复制这串东西
 
    最后面的邮箱不要复制, 可以注意到邮箱前面有一个空格就是为了和公钥区别开
 
-   ![image-20220827192957186](E:\Typora\ty_Photo\image-20220827192957186.png)
+   ![image-20220827192957186](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192957186.png)
 
 6. 打开`GitHub`->`点击头像`->`setting`->`SSH adn GPG keys`->`New SSh key`
 
-   ![image-20220827193202709](E:\Typora\ty_Photo\image-20220827193202709.png)
+   ![image-20220827193202709](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827193202709.png)
 
 7. 输入title、把刚才复制的那段公钥粘贴到`key`中保存
 
-   ![image-20220827193322556](E:\Typora\ty_Photo\image-20220827193322556.png)
+   ![image-20220827193322556](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827193322556.png)
 
 8. 在GitHub显示已经添加成功之后, 在`git bash`中运行`ssh -T git@github.com`，你可能会看到这样的提示。
 
    输入`yse`
 
-   ![image-20220827192314849](E:\Typora\ty_Photo\image-20220827192314849.png)
+   ![image-20220827192314849](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192314849.png)
 
 9. 然后如果你看到` Permission denied (publickey)`. 就说明你失败了，请回到第 1 步重来
 
@@ -64,32 +64,32 @@
 
 4. 按回车三次
 
-   ![image-20220827191600528](E:\Typora\ty_Photo\image-20220827191600528.png)
+   ![image-20220827191600528](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827191600528.png)
 
    公钥就在`id_rsa.pub`文件中
 
-   ![image-20220827192024881](E:\Typora\ty_Photo\image-20220827192024881.png)
+   ![image-20220827192024881](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192024881.png)
 
 5. 运行 `cat ~/.ssh/id_rsa.pub` ，得到一串东西，完整的复制这串东西, 最后面的邮箱不要复制, 可以注意到邮箱前面有一个空格就是为了和公钥区别开
 
-   ![image-20220827192957186](E:\Typora\ty_Photo\image-20220827192957186.png)
+   ![image-20220827192957186](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192957186.png)
 
 6. 打开`GitHub`->`点击头像`->`setting`->`SSH adn GPG keys`->`New SSh key`
 
-   ![image-20220827193202709](E:\Typora\ty_Photo\image-20220827193202709.png)
+   ![image-20220827193202709](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827193202709.png)
 
 7. 输入title、把刚才复制的那段公钥粘贴到key中保存
 
-   ![image-20220827193322556](E:\Typora\ty_Photo\image-20220827193322556.png)
+   ![image-20220827193322556](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827193322556.png)
 
 8. 在GitHub显示已经添加成功之后, 在`git bash`中运行`ssh -T git@github.com`，你可能会看到这样的提示。
 
    输入yse
 
-   ![image-20220827192314849](E:\Typora\ty_Photo\image-20220827192314849.png)
+   ![image-20220827192314849](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192314849.png)
 
 9. 然后如果你看到` Permission denied (publickey)`. 就说明你失败了，请回到第 1 步重来
 
    如果你看到 `Hi XXX! You’ve successfully authenticated, but GitHub does not provide shell access.`那就说明你成功了
    
-   ![image-20220827192314849](E:\Typora\ty_Photo\image-20220827192314849.png)
+   ![image-20220827192314849](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220827192314849.png)

@@ -21,5 +21,5 @@ tensorboard --logdir=D:TensorBoardData
 
 点击这个地址, 就可以看到tensorboard的计算图
 
-![image-20221026094108538](E:\Typora\ty_Photo\image-20221026094108538.png)
+![image-20221026094108538](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221026094108538.png)
 

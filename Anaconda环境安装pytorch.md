@@ -20,7 +20,7 @@ conda actiavte pytorch
 
 我这次要下载的是pytorch1.10, 由于版本有些老旧, 所以进入previous versions中进行下载
 
-![image-20221011154358185](E:\Typora\ty_Photo\image-20221011154358185.png)
+![image-20221011154358185](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221011154358185.png)
 
 进去之后会发现有conda文件和wheel文件两种下载方式
 

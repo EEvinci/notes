@@ -28,7 +28,7 @@ pip install 安装的包名
 
 因为我这里已经将`pip.ini`文件中的配置设置为了豆瓣源(下载很快), 所以不用再后面再加`-i 某某源地址`, 这种方式是**临时使用某镜像源**
 
-![image-20221012083509642](E:\Typora\ty_Photo\image-20221012083509642.png)
+![image-20221012083509642](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221012083509642.png)
 
 ```python
 [global]
@@ -61,7 +61,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple 安装包名
 
 打开cmd, 进入到`%APPDATA%`中
 
-![image-20221012084754911](E:\Typora\ty_Photo\image-20221012084754911.png)
+![image-20221012084754911](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221012084754911.png)
 
 实际是这个路径`C:\Users\PC\AppData\Roaming`
 
@@ -71,7 +71,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple 安装包名
 
 在`pip`文件夹下创建`pip.ini`文件
 
-![image-20221012084620608](E:\Typora\ty_Photo\image-20221012084620608.png)
+![image-20221012084620608](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221012084620608.png)
 
 ##### 修改pip.ini文件的规则
 
@@ -120,7 +120,7 @@ pip list --outdated
 
 ###### 遇到问题:
 
-![image-20221012085424511](E:\Typora\ty_Photo\image-20221012085424511.png)
+![image-20221012085424511](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221012085424511.png)
 
 现在最新的pip要求源必须是https的，不然会报错：
 
@@ -132,13 +132,13 @@ WARNING: The repository located at pypi.douban.com is not a trusted or secure ho
 
 `trusted-host=pypi.douban.com`
 
-![image-20221012085544880](E:\Typora\ty_Photo\image-20221012085544880.png)
+![image-20221012085544880](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221012085544880.png)
 
 我之前的`trusted-host=pypi.douban.com`可能限制在了`install`中了, 也就是只有下载的时候是信任的
 
 但是在更新的时候还是不信任: 把`[install]`注释掉或者是删除掉, 使信任的范围在全局即可
 
-![image-20221012085346223](E:\Typora\ty_Photo\image-20221012085346223.png)
+![image-20221012085346223](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20221012085346223.png)
 
 ```python
 [global]

@@ -8,11 +8,11 @@
 
 1. 打开 **Eclipse**，点击菜单 **Help -> Install New Software**，如下图所示 -
 
-   ![img](E:\Typora\ty_Photo\809140126_34000.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/809140126_34000.png)
 
 2. 在上图的新弹出界面中选择 “Add”，如下图所示 -
 
-   ![img](E:\Typora\ty_Photo\597140127_14451.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/597140127_14451.png)
 
    
 
@@ -26,25 +26,25 @@
 
    然后点击“**OK**”，如下图所示-
 
-   ![img](E:\Typora\ty_Photo\516140129_78516.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/516140129_78516.png)
 
    
 
    显示安装的所有详细信息 :
 
-   ![img](E:\Typora\ty_Photo\351140131_65599.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/351140131_65599.png)
 
    
 
    同意协议，然后安装 :
 
-   ![img](E:\Typora\ty_Photo\808140131_12878.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/808140131_12878.png)
 
    
 
    安装完成后，重新启动**Eclipse**:
 
-   ![img](E:\Typora\ty_Photo\324140133_97194.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/324140133_97194.png)
 
 3. 安装后的检查
 
@@ -55,7 +55,7 @@
 
    应该会看到有执行JavaFX编程的向导，如下图所示 :
 
-   ![img](E:\Typora\ty_Photo\268140135_82027.png)
+   ![img](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/268140135_82027.png)
 
 ### 下载并导入Java FX的`jar包`
 
@@ -67,7 +67,7 @@
 
 ---**根据自己的操作系统选择32位还是64位, 类型Type一定是`SDK`:** 
 
-![image-20220925225541611](E:\Typora\ty_Photo\image-20220925225541611.png)
+![image-20220925225541611](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925225541611.png)
 
 
 
@@ -75,31 +75,31 @@
 
 **点击`module path`, 添加库:**
 
-![image-20220925225120986](E:\Typora\ty_Photo\image-20220925225120986.png)
+![image-20220925225120986](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925225120986.png)
 
 
 
 **---选择用户库:**
 
-![image-20220925225226928](E:\Typora\ty_Photo\image-20220925225226928.png)
+![image-20220925225226928](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925225226928.png)
 
 
 
 **---点击用户库选项:**
 
-![image-20220925225756471](E:\Typora\ty_Photo\image-20220925225756471.png)
+![image-20220925225756471](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925225756471.png)
 
 
 
 ---**点击用户库, 然后新建库:**
 
-![image-20220925225901408](E:\Typora\ty_Photo\image-20220925225901408.png)
+![image-20220925225901408](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925225901408.png)
 
 
 
 **---为新建的库命名:**
 
-![image-20220925225915279](E:\Typora\ty_Photo\image-20220925225915279.png)
+![image-20220925225915279](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925225915279.png)
 
 
 
@@ -109,7 +109,7 @@
 
 ​	添加jar: 是已经将jar文件放在项目文件夹下之后, 可以**从项目中添加jar文件,** 是jar文件的**相对路径**
 
-![image-20220925230047092](E:\Typora\ty_Photo\image-20220925230047092.png)
+![image-20220925230047092](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925230047092.png)
 
 **最后应用并关闭即可**
 
@@ -133,7 +133,7 @@
 
 **---在运行中点击`Coverage Configurations`:**
 
-![image-20220925230444431](E:\Typora\ty_Photo\image-20220925230444431.png)
+![image-20220925230444431](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925230444431.png)
 
 
 
@@ -147,7 +147,7 @@
 --module-path "E:\JavaSoftware\JavaFX_jar\openjfx-19_windows-x64_bin-sdk\javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml
 ```
 
-![image-20220925230952690](E:\Typora\ty_Photo\image-20220925230952690.png)
+![image-20220925230952690](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925230952690.png)
 
 --------
 
@@ -155,19 +155,19 @@
 
 **点击变量, 在出来的新窗口中点击编辑变量:**
 
-![image-20220925231221703](E:\Typora\ty_Photo\image-20220925231221703.png)
+![image-20220925231221703](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925231221703.png)
 
 
 
 **---点击新建:**
 
-![image-20220925231326589](E:\Typora\ty_Photo\image-20220925231326589.png)
+![image-20220925231326589](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925231326589.png)
 
 
 
 ---**名称可以填:`JavaFX.control`**
 
-![image-20220925231622854](E:\Typora\ty_Photo\image-20220925231622854.png)
+![image-20220925231622854](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925231622854.png)
 
 **值中填入以下语句:**
 
@@ -181,7 +181,7 @@
 
 ---**然后在选择变量的窗口选择自己刚刚创建的变量使用即可**:
 
-![image-20220925231900409](E:\Typora\ty_Photo\image-20220925231900409.png)
+![image-20220925231900409](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220925231900409.png)
 
 
 

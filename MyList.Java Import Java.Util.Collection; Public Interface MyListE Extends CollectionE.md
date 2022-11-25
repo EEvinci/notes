@@ -2,7 +2,7 @@
 
 ## Job
 
-![I. General Description In this assignment, you will implement the unfinished methods in MyLinkedList.java. The methods to be](E:\Typora\ty_Photo\phpItroV6.png)
+![I. General Description In this assignment, you will implement the unfinished methods in MyLinkedList.java. The methods to be](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/phpItroV6.png)
 
 ## solution
 

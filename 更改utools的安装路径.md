@@ -17,18 +17,18 @@ uTools 是一个极简、插件化的现代桌面软件，通过自由选配丰�
 # 更改utools的安装路径
 
 按住Win+R键打开运行窗口，输入%APPDATA%，回车。
-![在这里插入图片描述](E:\Typora\ty_Photo\watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAY2FpLTQ=,size_20,color_FFFFFF,t_70,g_se,x_16.png)
+![在这里插入图片描述](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAY2FpLTQ=,size_20,color_FFFFFF,t_70,g_se,x_16.png)
 
 打开了一个目录，找到uTools目录的路径，例如：
-![在这里插入图片描述](E:\Typora\ty_Photo\watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAY2FpLTQ=,size_16,color_FFFFFF,t_70,g_se,x_16.png)
+![在这里插入图片描述](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAY2FpLTQ=,size_16,color_FFFFFF,t_70,g_se,x_16.png)
 “C:\Users\lenovo\AppData\Roaming\uTools”
 或者你也可以点击桌面utools快捷方式右击选择打开文件位置也可以看到。
-![在这里插入图片描述](E:\Typora\ty_Photo\watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAY2FpLTQ=,size_15,color_FFFFFF,t_70,g_se,x_16.png)
+![在这里插入图片描述](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAY2FpLTQ=,size_15,color_FFFFFF,t_70,g_se,x_16.png)
 
 ***重点：***右键截切整个uTools目录没错就是剪切，放到你想要存放的位置，例如：“D:\utools”
 记住之前的路径，下面借助一个命令mklink，这里使用mklink的/d命令即可
 以管理员方式运行cmd命令行（避免权限不够的情况影响结果），输入如下命名（记得修改为自己uTools目录移动的路径），然后回车
 mklink /d “C:\Users\lenovo\AppData\Roaming\uTools” “E:\Tools\uTools”
 这里是给移动后的文件创建一个符号链接，返回之前的AppData目录中出现一个类似快捷方式的uTools目录，实际上只是作为一个快捷方式，这样就能够做到不占用C盘空间，将数据存到其他地方了。
-![在这里插入图片描述](E:\Typora\ty_Photo\76331351f3204241a0d2337c4cdff94a.png)
+![在这里插入图片描述](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/76331351f3204241a0d2337c4cdff94a.png)
 图标已变化。

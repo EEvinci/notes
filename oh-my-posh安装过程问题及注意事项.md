@@ -1,10 +1,10 @@
 在通过官方的安装命令后在个人用户的环境变量中有oh-my-posh的环境变量
 
-![image-20220625153304583](E:\Typora\ty_Photo\image-20220625153304583.png)
+![image-20220625153304583](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220625153304583.png)
 
 但即使已经装配了环境变量，在powershell中输入`oh-my-posh`依然会出现未识别问题
 
-![image-20220625153521779](E:\Typora\ty_Photo\image-20220625153521779.png)
+![image-20220625153521779](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220625153521779.png)
 
 这个问题的解决方法是: 通过管理员模式进入
 
@@ -24,11 +24,11 @@
 
   - 如果没有`Windows Teminal`可以去微软应用商店里面搜索`Teminal`进行安装
 
-  ![image-20220625200314261](E:\Typora\ty_Photo\image-20220625200314261.png)
+  ![image-20220625200314261](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220625200314261.png)
 
   非常漂亮的一个界面，点击`Get Started`进入官方帮助文档内
 
-- 现在我们已经进入到了文档内部, 看到真的非常详细, 有很多方面的指导说明![image-20220625200438478](E:\Typora\ty_Photo\image-20220625200438478.png)
+- 现在我们已经进入到了文档内部, 看到真的非常详细, 有很多方面的指导说明![image-20220625200438478](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220625200438478.png)
 
 - 通过`winget`方式使用以下命令行对`oh-my-posh`进行安装下载:
 
@@ -93,7 +93,7 @@
    
    如果对以上流程还有一种云里雾里的感觉可以参看官方文档的[Prompt教程](https://ohmyposh.dev/docs/installation/prompt)
    
-   ![image-20220626133312244](E:\Typora\ty_Photo\image-20220626133312244.png)
+   ![image-20220626133312244](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626133312244.png)
    
    --------
 
@@ -107,21 +107,21 @@
 
     - 在官方文档下载页面的初始几行就给出了与主题相适配的**书呆子**(`Nerd`)字体推荐
 
-      ![image-20220626133835080](E:\Typora\ty_Photo\image-20220626133835080.png) 
+      ![image-20220626133835080](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626133835080.png) 
 
       所以需要去到[字体官网 Nerd Fonts](https://www.nerdfonts.com/)进行下载
 
       相关的界面再点击上图的`Nerd Font`就会去到官方的另一个界面[Fonts](https://ohmyposh.dev/docs/installation/fonts), 如下, 里面有详细的字体安装流程
 
-      ![image-20220626134844825](E:\Typora\ty_Photo\image-20220626134844825.png)
+      ![image-20220626134844825](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626134844825.png)
 
     - 下载下来的是一个压缩包文件, 将压缩包解压, 里面是字体文件的安装包, `Ctrl + a`全选然后选择**为全体用户安装**即可
 
     - 打开powershell的配置页面，选择外观->字体, 就可以发现已经有了, 然后选择保存, 开始使用
 
-      ![image-20220626145141007](E:\Typora\ty_Photo\image-20220626145141007.png)
+      ![image-20220626145141007](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626145141007.png)
 
-      ![image-20220626145201224](E:\Typora\ty_Photo\image-20220626145201224.png)
+      ![image-20220626145201224](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626145201224.png)
 
   - 第二种: 采用官方文档下载安装教程, **以管理员方式运行Teminal**用命令行进行安装
 
@@ -133,19 +133,19 @@
 
       下载页面情况如下
 
-      ![image-20220626135743042](E:\Typora\ty_Photo\image-20220626135743042.png)
+      ![image-20220626135743042](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626135743042.png)
 
-      ![image-20220626135759109](E:\Typora\ty_Photo\image-20220626135759109.png)
+      ![image-20220626135759109](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626135759109.png)
 
-      ![image-20220626135831862](E:\Typora\ty_Photo\image-20220626135831862.png)
+      ![image-20220626135831862](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626135831862.png)
 
     - 下载完成之后要在`Teminal`中进行配置
 
-      ![image-20220626145344178](E:\Typora\ty_Photo\image-20220626145344178.png)
+      ![image-20220626145344178](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626145344178.png)
 
       官方文档的解释是这样的
 
-      ![image-20220626145507027](E:\Typora\ty_Photo\image-20220626145507027.png)
+      ![image-20220626145507027](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626145507027.png)
 
       至此`oh-my-posh`就已经全部安装好了, 可以开始愉快的`powershell`命令行操作了🙌
 
@@ -162,11 +162,11 @@ get-Poshthemes   //首先可以查看自己想要更换的主题
 notepad $PROFILE    //打开配置脚本文件,内容形式如下
 ```
 
-![image-20220626150139310](E:\Typora\ty_Photo\image-20220626150139310.png)
+![image-20220626150139310](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626150139310.png)
 
 就以上面的内容为例, 找到当前使用的主题名
 
-![image-20220626150251620](E:\Typora\ty_Photo\image-20220626150251620.png)
+![image-20220626150251620](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20220626150251620.png)
 
 然后将已经选择好的主题的名字替换原有的主题名
 
