@@ -186,11 +186,11 @@ source filename 或 . filename
 
 - 查看下**/usr/local/hadoop/tmp/dfs/data/current下VERSION**的**clusterID**
 
-  ![image-20230313152931525](C:/Users/PC/AppData/Roaming/Typora/typora-user-images/image-20230313152931525.png)
+  ![image-20230313152931525](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20230313152931525.png)
 
 - 查看**namenode节点的集群号**
 
-  ![image-20230313153332702](C:/Users/PC/AppData/Roaming/Typora/typora-user-images/image-20230313153332702.png)
+  ![image-20230313153332702](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20230313153332702.png)
 
   发现**两个clusterID的确不同**
 
@@ -198,21 +198,21 @@ source filename 或 . filename
 
   - 根据上述步骤删除所有节点资源信息，然后格式化namenode节点
 
-    ![image-20230313154342961](C:/Users/PC/AppData/Roaming/Typora/typora-user-images/image-20230313154342961.png)
+    ![image-20230313154342961](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20230313154342961.png)
 
   - 格式化namenode节点过程中的配置信息显示如下：
 
-    ![image-20230313154841771](C:/Users/PC/AppData/Roaming/Typora/typora-user-images/image-20230313154841771.png)
+    ![image-20230313154841771](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20230313154841771.png)
 
     我虽然看不懂，但是感觉还是很有信息意义的
 
   - 查看下**新的clusterID**，并重新执行`./start-dfs.sh`
 
-    ![image-20230313155141315](C:/Users/PC/AppData/Roaming/Typora/typora-user-images/image-20230313155141315.png)
+    ![image-20230313155141315](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20230313155141315.png)
   
   - 打开**localhost:50070**
   
-    ![image-20230313155449981](C:/Users/PC/AppData/Roaming/Typora/typora-user-images/image-20230313155449981.png)
+    ![image-20230313155449981](http://evinci.oss-cn-hangzhou.aliyuncs.com/evinci/image-20230313155449981.png)
 
 - 我用hadoop无法进行`stop-all.sh`命令, 只有用root才可以, 这令我怀疑`hadoop`到底有没有管理员权限? 还是说这个服务只有root才能开启关闭? 还是说我开启的时候用的是root, 所以关闭也必须是root?
 
